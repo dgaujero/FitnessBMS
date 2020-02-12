@@ -35,5 +35,5 @@ CREATE TABLE classesTable
 	className varchar(255) NOT NULL,
     classType varchar(255) NOT NULL,
 	assignedTrainer varchar(255) NOT NULL,
-    classSize int NOT NULL
+    classSize int(50) NOT NULL
 );
