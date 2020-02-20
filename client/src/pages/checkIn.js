@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import MemTrainer from '../components/CheckInComp/MemTrainer'
+import axios from 'axios'
+
 class CheckIn extends Component{
     constructor(props) {
         super(props);
@@ -9,12 +11,15 @@ class CheckIn extends Component{
         }
     }
 
-    // componentWillMount(){
-    //     this.refs.name.focus();
-    // }
+    componentDidMount() {
+        axios.get('/displayallmembers')
+          .then(res => {
+            debugger
+          });
+      }
 
     // fSubmit = (event) =>  {
-    //     event.preventDefault();
+    //     event.preventDefault();`
 
   
     // }

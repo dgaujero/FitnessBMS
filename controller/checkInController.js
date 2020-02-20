@@ -5,7 +5,7 @@ const router = express.Router();
 
 const model = require("../model/post");
 
-router.get("/displayAllMembers", function(req, res){
+router.get("/displayallmembers", function(req, res){
     model.allMembers(function(data) {
     res.json({ membersTable: data });
 });
