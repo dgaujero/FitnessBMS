@@ -9,7 +9,7 @@ VALUES (
     '161 Newkirk Ave',
     'deion@aujero.net',
     'mom',
-    '1111111112',
+    '1111111112'
     );
 
 INSERT INTO membersTable (firstName, lastName, username, password, phoneNum, bday, address, email, emergName, emergNum) 
@@ -23,7 +23,7 @@ VALUES (
     '161 Newkirk Ave',
     'amiel@gmail.com',
     'mom',
-    '1111111112',
+    '1111111112'
     );
 
 INSERT INTO membersTable (firstName, lastName, username, password, phoneNum, bday, address, email, emergName, emergNum) 
@@ -37,7 +37,7 @@ VALUES (
     '161 Newkirk Ave',
     'claudia@gmail.com',
     'mom',
-    '1111111112',
+    '1111111112'
     );
 
 INSERT INTO membersTable (firstName, lastName, username, password, phoneNum, bday, address, email, emergName, emergNum) 
@@ -51,7 +51,7 @@ VALUES (
     '161 Newkirk Ave',
     'c@gmail.com',
     'mom',
-    '1111111112',
+    '1111111112'
     );
 
 INSERT INTO classesTable (className, classType, assignedTrainer, classSize)
