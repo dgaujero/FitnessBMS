@@ -1,9 +1,15 @@
-var express = require("express");
-var path = require("path");
+const express = require("express");
+const path = require("path");
 
-var router = express.Router();
+const router = express.Router();
 
-// var pwd = require("../models/post");
+const model = require("../model/post");
+
+router.get("/displayAllMembers", function(req, res){
+    model.allMembers(function(data) {
+    res.json({ membersTable: data });
+});
+});
 
 
 module.exports = router;
